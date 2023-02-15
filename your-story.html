@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Share Your Story</title>
+
+	<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="js/main.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=IBM+Plex+Serif&family=Raleway&display=swap" rel="stylesheet"> 
+	</head>
+
+<!--Header + Navigation-->
+	<body class="body-tag">
+		<header>
+			<nav>
+				<a href="./index.html" id="home-button"><img class="logoImg" src="Images/WT+logoprimary+logo.png" alt="logo"></a>
+				<ul id="nav-list">
+					<li><a href="./our-stories.html" class="nav-link">Our Stories</a></li>
+					<li><a href="./abortion101.html" class="nav-link">Abortion 101</a></li>
+					<li><a href="./your-story.html" class="nav-link">Share Your Story</a></li>
+					<li><a href="./contact.html" class="nav-link">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+
+
+<!----------------Page's Unique Content---------------->
+
+<!--Introductory Message-->
+	<section class=share-form>
+		<div id="share-your-story-intro">
+			<h1 class="title">Share Your Abortion Story</h1>
+		</div>
+
+		<div id="intro-img">
+			<p id="we-had-abortions-p">Sharing abortion stories brings us together. Sharing your story can be cathartic and help you prepare to share with your loved ones. Sharing your story helps remind you that you are not alone. Want to share your story on our website? Fill out this form.</p>
+			<!-- commented out this pic in case i want to use it instead of the background pic 
+				<img src="https://pbs.twimg.com/media/EnMx7RtVcAE-weB?format=png&name=large" alt="Drawing of three women holding up a banner stating 'We Had Abortions.'" id="we-had-abortions"> -->
+		</div>
+		<div id="spacer"></div>
+	</section>
+
+<!--Questions to help the user create a narrative-->
+		<section class="questions-container">
+			<div class = "guiding-questions">
+				<h3>Consider the following:</h3><br>
+				<ul id="questions">
+					<li>How do you feel the cultural environment and messages you received about abortion impacted your experience, both positive and negative?</li><br>
+					<li>Are there messages you learned about abortion in your family? How did they impact your experience?</li><br>
+					<li>Are there racial, ethnic, gender identity, class, sexuality, immigrant, ability, religious, or other identities that impacted your abortion experience?</li><br>
+					<li>How did your geographic location or community political climate impact your abortion experience?</li><br>
+					<li>What do you know now about your abortion experience that you would tell a younger version of yourself?</li><br>
+					<li>Were there barriers you faced? How did you navigate them?</li><br>
+					<li>How did you pay for your abortion? If you had insurance, were you able to use it, why or why not? Did you have to borrow money from someone or call an abortion fund? How did that experience make you feel?</li><br>
+					<li>Was there someone who helped you navigate barriers? How did they help you? What stands out about that person to you?</li><br>
+					<li>Was there a barrier that you were able to bypass because of your privilege? How did that impact your abortion experience?</li><br>
+					<li>What support did you or didn’t you have during your abortion? How do you think that impacted you?</li><br>
+				</ul>
+			</div>
+
+<!--Submission form for testimonial-->
+			<div class="testimonial-form">           
+				<img>
+				<p></p>
+				<form>
+					<label for="testify-first-name">
+						Your first name:
+					</label><br>
+					<input type="text" id="testify-first-name" name="first-name"><br><br>
+					<label for="testify-last-name">
+						Your last name:
+					</label><br>
+					<input type="text" id="testify-last-name" name="last-name"><br><br>
+					<label for="testify-pseudonym">
+						Your alias:
+					</label><br>
+					
+					<input type="text" id="testify-pseudonym" name="pseudonym"><br><br>
+					<label for="location">
+						You are from:
+					</label><br>
+					<input type="text" id="location" name="location"><br><br>
+					<label for="abortion-message">
+						Your abortion story:
+					</label><br>
+					<input type="text" id="abortion-message" name="abortion-message" size=30%><br>
+					<input type="submit" value="Submit">
+					<input type="reset">
+				</form>
+			</div>
+
+		</section>
+
+<!--Extra Content idk what kind yet-->
+
+		<section>
+			<div id="storytellers">
+				<h2>Meet Our Storytellers</h2>
+					<p>Are you curious about other storytellers? <a href="./our-stories.html">Check out the people who chose to share their stories with us.</a></p>
+				</div>
+		</section>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+<!--JavaScript Link-->
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+
+<!--Footer Nav-->
+	<footer>
+			<div class="footerSocials">
+				<img class="socialIcons" src="https://img.icons8.com/fluency-systems-regular/48/null/facebook-new--v1.png"/>
+				<img class="socialIcons" src="https://img.icons8.com/fluency-systems-regular/48/null/twitter.png"/>
+				<img class="SocialIcons" src="https://img.icons8.com/sf-regular/48/null/instagram-new.png"/>
+			</div>	
+			<div class="footerLinks">
+				<li><a href="./index.html">About</a></li>
+				<li><a href="./our-stories.html">Our Stories</a></li>
+				<li><a href="./abortion101.html">Abortion 101</a></li>
+				<li><a href="./your-story.html">Share Your Story</a></li>
+				<li><a href="./contact.html">Contact</a></li>
+			</div>
+	</footer>
+</html>

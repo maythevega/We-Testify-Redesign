@@ -1,0 +1,231 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+ 
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+ 
+  .clear {
+      clear: both;
+  }
+ 
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+ 
+  body {
+    font-family: 'Raleway', sans-serif;  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+ 
+  header {
+    background: #FEE1C7;
+    height: 138px;
+  }
+ 
+  a {
+    text-decoration: none;
+    list-style: none;
+  }
+ 
+  .logoImg {
+    max-width: 10%;
+    width: auto;
+    margin-left: 20px;
+  }
+ 
+ /* not sure how to make the image icon/home button not have that bar but it should probably be our home button*/
+ 
+  #home-button {
+    transition: none;
+}
+ 
+  /* .shareYourStory {
+    padding: 10px 24px;
+    background-color: #6c524a;
+    color: white;
+    border-radius: 120px;
+  } */
+ 
+ 
+  /* NAV */
+  #nav-list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    position: relative;
+    top: -75px;
+  }
+
+ .nav-link {
+    background-color: #81554777;
+    color: white;
+    margin-right: 25px;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 120px;
+  }
+ 
+  .nav-link:hover {
+    transition-delay: 5s;
+  }
+ 
+  .nav-link:hover::after{
+    background-color: #563e3677;
+    color: white;
+    margin-right: 25px;
+    /* padding: 10px 25px; */
+    text-decoration: none;
+    /* border-radius: 120px; */
+  }
+ 
+  .nav-link:hover::before{
+    content: "";
+    background-color: #563e3677;
+    color: white;
+    margin: 12px;
+    /* padding: 10px 25px; */
+    text-decoration: none;
+    border-radius: 120px;
+  }
+ 
+
+ 
+ /* FOOTER */
+ 
+  footer {
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    height: 140px;
+  }
+ 
+  .footerLinks {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    align-items: flex-end;
+    background: #f3dbd2;
+    border-top: 2px solid #e6c8be;
+    width: 100%;
+    padding-right: 40px;
+  }
+ 
+  .footerLinks li {
+    padding-top: 10px;
+    list-style: none;
+  }
+ 
+  .footerLinks a {
+    color: #71816D;
+  }
+ 
+  .footerSocials {
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #e6c8be;
+    background: #f3dbd2;
+    padding-top: 14px;
+    padding-left: 40px;
+  }
+  
+  .socialIcons {
+    width: 40px;
+  }
+ 
+ 
+ 
+/*  form details */
+  
+  body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color:#FEF9E7;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px #563e36;
+    width: 400px;
+    text-align: left;
+    margin: 24px 33% 12px;
+    padding: 20px 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 0 0 5px;
+    color: #563e36;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .form {
+    padding: 15px 20px;
+  }
+  
+  .form-control {
+    padding-bottom: 40px;
+    position: relative;
+  }
+  
+  .form-control label {
+    color: #784212;
+    display: block;
+    margin-bottom: 3px;
+    margin-top: 5px;
+  }
+  
+  .form-control input {
+    border: 2px solid #784212;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  button {
+    cursor: pointer;
+    background-color: #563e36;
+    border: 2px solid #563e36;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+.form-check{
+    color: brown;
+    text-align: center;
+}
+
+#message {
+  height: 150px; 
+  padding-bottom: 125px;
+}
+/*  M */
+ 
+  /******************************************
+  /* ADDITIONAL STYLES
+  /********
